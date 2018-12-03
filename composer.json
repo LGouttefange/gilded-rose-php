@@ -1,0 +1,19 @@
+{
+    "name": "elgouttefange/gilded-rose-kata",
+    "description": "Gilded Vale code kata - rearranged for a workshop. See full kata : https://github.com/emilybache/GildedRose-Refactoring-Kata",
+    "type": "project",
+    "require": {
+        "codeception/codeception": "^2.5"
+    },
+    "autoload": {
+        "psr-4": {
+            "GildedRose\\": "src"
+        }
+    },
+    "authors": [
+        {
+            "name": "Loic Gouttefangeas",
+            "email": "loic.gouttefangeas.pro@gmail.com"
+        }
+    ]
+}
