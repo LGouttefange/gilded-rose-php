@@ -23,7 +23,7 @@ $items = array(
 
 $app = new GildedRose($items);
 
-$days = isset($argv) ? $argv : 2;
+$days = 2;
 if (count($argv) > 1) {
     $days = (int) $argv[1];
 }
